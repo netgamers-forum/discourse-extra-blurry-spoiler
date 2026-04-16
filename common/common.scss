@@ -1,4 +1,5 @@
 .spoiler-blurred {
+  overflow: hidden;
   filter: blur(48px) !important;
 
   .discourse-no-touch & {
