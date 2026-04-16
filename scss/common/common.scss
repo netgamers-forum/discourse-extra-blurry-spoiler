@@ -1,0 +1,10 @@
+.spoiler-blurred {
+  filter: blur(48px) !important;
+
+  .discourse-no-touch & {
+    &:hover,
+    &:focus {
+      filter: blur(32px) !important;
+    }
+  }
+}
