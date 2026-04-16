@@ -1,5 +1,5 @@
 .spoiler-blurred {
-  overflow: hidden;
+  clip-path: inset(0);
   filter: blur(48px) !important;
 
   .discourse-no-touch & {
