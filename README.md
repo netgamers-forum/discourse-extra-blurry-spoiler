@@ -13,6 +13,10 @@ A Discourse theme component that strengthens the blur effect of the [Spoiler Ale
 2. In Discourse admin: **Customize → Themes → Install → From a git repository**
 3. Add it as a component to your active theme
 
+## License
+
+[CC BY-NC 4.0](LICENSE) — free to use and adapt, not for commercial purposes.
+
 ## Requirements
 
 The [Spoiler Alert](https://meta.discourse.org/t/discourse-spoiler-alert/12650) plugin must be installed.
