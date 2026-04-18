@@ -3,7 +3,7 @@
   filter: blur(48px) !important;
 
   &:not(:has(img)) {
-    filter: blur(16px) !important;
+    filter: blur(8px) !important;
   }
 
   .discourse-no-touch & {
@@ -12,7 +12,7 @@
       filter: blur(32px) !important;
 
       &:not(:has(img)) {
-        filter: blur(12px) !important;
+        filter: blur(6px) !important;
       }
     }
   }
