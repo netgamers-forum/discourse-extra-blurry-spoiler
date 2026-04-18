@@ -2,10 +2,18 @@
   clip-path: inset(0);
   filter: blur(48px) !important;
 
+  &:not(:has(img)) {
+    filter: blur(16px) !important;
+  }
+
   .discourse-no-touch & {
     &:hover,
     &:focus {
       filter: blur(32px) !important;
+
+      &:not(:has(img)) {
+        filter: blur(12px) !important;
+      }
     }
   }
 }
